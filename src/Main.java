@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//ЧТО ЕЩЕ МНЕ НУЖНО СДЕЛАТЬ!!!!???
+
 public class Main {
     public static void main(String[] args){
         var dog = 8.0;
@@ -16,5 +16,49 @@ public class Main {
         System.out.println(cat);
         paper = paper + 4;
         System.out.println(paper);
+
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend - 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog =  frog + 4;
+        System.out.println(frog);
+
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var  totalWeight= boxer1 + boxer2;
+        System.out.println(totalWeight);
+        var ves = boxer2 - boxer1;
+        System.out.println(ves);
+
+        var difference = boxer2 % boxer1;
+        System.out.println(difference);
+
+        var totalHours = 640;
+        var time = 8;
+        var totalWrkers = totalHours /time;
+        System.out.println("Всего работников в компании — " + totalWrkers + " человек");
+
+        var bigCompany = totalWrkers + 94;
+        var dividedByHours = totalHours / bigCompany;
+        System.out.println("Если в компании работает " + bigCompany + " человека, то всего " +  dividedByHours + " часа работы может быть поделено между сотрудниками");
+
+
     }
 }
